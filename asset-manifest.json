@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/maxit/static/css/main.b5094bea.css",
-    "main.js": "/maxit/static/js/main.6f84233d.js",
+    "main.js": "/maxit/static/js/main.d106e3ab.js",
     "static/media/BgMaxit.jpg": "/maxit/static/media/BgMaxit.a76d286790cdb6082e90.jpg",
     "index.html": "/maxit/index.html",
     "main.b5094bea.css.map": "/maxit/static/css/main.b5094bea.css.map",
-    "main.6f84233d.js.map": "/maxit/static/js/main.6f84233d.js.map"
+    "main.d106e3ab.js.map": "/maxit/static/js/main.d106e3ab.js.map"
   },
   "entrypoints": [
     "static/css/main.b5094bea.css",
-    "static/js/main.6f84233d.js"
+    "static/js/main.d106e3ab.js"
   ]
 }
