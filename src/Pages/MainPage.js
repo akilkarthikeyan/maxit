@@ -7,10 +7,10 @@ const MainPage = () => {
       <div  className = "mainpage">
         <h1 className = "title" >MAXIT</h1>
         <button className = "btn  btn-warning menu-btn" onClick={() => {
-          navigate(`/maxit/${1}`);
+          navigate(`/maxit/game/${1}`);
         }}>Single Player</button>
         <button className = "btn btn-warning menu-btn" onClick={() => {
-          navigate(`/maxit/${2}`);
+          navigate(`/maxit/game/${2}`);
         }}>Multi Player</button>
       </div>
     );

@@ -14,8 +14,8 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path = "/" element = {<MainPage />} />
-          <Route path = "/maxit/:choice" element = {<Maxit />} />
+          <Route path = "/maxit" element = {<MainPage />} />
+          <Route path = "/maxit/game/:choice" element = {<Maxit />} />
           <Route path = "*" element = {<ErrorPage/ >} />
         </Routes>
       </Router>
