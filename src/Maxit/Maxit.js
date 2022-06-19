@@ -326,7 +326,7 @@ function Maxit() {
 		<div>
 			<nav>
 				<button className = "btn btn-warning" onClick = {() => {
-					navigate('/maxit');
+					navigate('/');
 				}}>Back</button>
 				
 				<button className = "btn btn-warning" onClick = {() => {

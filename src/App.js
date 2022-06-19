@@ -12,10 +12,10 @@ import ErrorPage from './Pages/ErrorPage';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename = '/maxit'>
         <Routes>
-          <Route path = "/maxit" element = {<MainPage />} />
-          <Route path = "/maxit/game/:choice" element = {<Maxit />} />
+          <Route path = "/" element = {<MainPage />} />
+          <Route path = "/game/:choice" element = {<Maxit />} />
           <Route path = "*" element = {<ErrorPage/ >} />
         </Routes>
       </Router>
