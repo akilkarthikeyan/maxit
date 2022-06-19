@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/maxit/static/css/main.b5094bea.css",
+    "main.js": "/maxit/static/js/main.a8b3e8cc.js",
+    "static/media/BgMaxit.jpg": "/maxit/static/media/BgMaxit.a76d286790cdb6082e90.jpg",
+    "index.html": "/maxit/index.html",
+    "main.b5094bea.css.map": "/maxit/static/css/main.b5094bea.css.map",
+    "main.a8b3e8cc.js.map": "/maxit/static/js/main.a8b3e8cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5094bea.css",
+    "static/js/main.a8b3e8cc.js"
+  ]
+}
