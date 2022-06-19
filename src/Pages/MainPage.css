@@ -1,0 +1,25 @@
+
+body{
+
+    color: white;
+    font-family: "Ubuntu";
+    /* overflow:scrol */
+}
+
+.mainpage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-btn{
+    padding-inline: 2em;
+    margin: 20px;
+    min-width: 15em;
+}
+
+.title{
+    letter-spacing: 5px;
+}
