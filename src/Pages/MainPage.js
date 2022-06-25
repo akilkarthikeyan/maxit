@@ -11,7 +11,7 @@ const MainPage = () => {
         }}>Single Player</button>
         <button className = "btn btn-warning menu-btn" onClick={() => {
           navigate(`/game/${2}`);
-        }}>Multi Player</button>
+        }}>Two Player</button>
       </div>
     );
   }

@@ -334,6 +334,12 @@ function Maxit() {
 						return !prev;
 					});
 				}}>Help</button>
+
+				{/* <button className = "btn btn-warning" onClick = {() => {
+					props.refresh();
+				}}>
+					New</button> */}
+
 			</nav>
 			{!help &&<div className='container'>
 				<Info className = "container-info" />
