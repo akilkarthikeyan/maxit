@@ -333,7 +333,7 @@ function Maxit() {
 					setHelp(prev => {
 						return !prev;
 					});
-				}}>{help ? "Back" : "Help"}</button>
+				}}> Help </button>
 
 				{/* <button className = "btn btn-warning" onClick = {() => {
 					props.refresh();
