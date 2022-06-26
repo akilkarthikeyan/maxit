@@ -327,13 +327,13 @@ function Maxit() {
 			<nav>
 				<button className = "btn btn-warning" onClick = {() => {
 					navigate('/');
-				}}>Back</button>
+				}}>Menu</button>
 				
 				<button className = "btn btn-warning" onClick = {() => {
 					setHelp(prev => {
 						return !prev;
 					});
-				}}>Help</button>
+				}}>{help ? "Back" : "Help"}</button>
 
 				{/* <button className = "btn btn-warning" onClick = {() => {
 					props.refresh();
