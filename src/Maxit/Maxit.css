@@ -14,7 +14,7 @@ nav  button{
 	margin-left: 1em;
 }
 .container {
-	height: 90.6vh;
+	/* height: 90.6vh; */
 	display: flex;
 	/* flex-basis: autod; */
 	align-items: center;
