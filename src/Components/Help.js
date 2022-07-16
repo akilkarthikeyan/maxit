@@ -1,4 +1,3 @@
-import './Help.css';
 const Help = () => {
     return(
         <div className = 'help' >
