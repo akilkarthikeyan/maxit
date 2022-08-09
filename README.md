@@ -16,6 +16,7 @@ State of the grid decided by
 1) position - Current position of the pointer
 2) gridState - Bitmask containing the positions of the grid that are not taken 
 3) turn - Indicates if it is X's turn or Y's turn
+
 DP array stores the difference between the scores of both players "Y - X"
 Next move chosen to maximize "Y - X" in case of Y's turn or maximize "X - Y" in case of X's turn
 Computer assumes the role of Player Y and plays to win by making the most optimal next move as per the DP array
