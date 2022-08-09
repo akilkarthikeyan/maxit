@@ -5,3 +5,9 @@ marker. When Player 1 is done, Player 2 makes a similar move, except choosing be
 Play alternates until all squares are taken or until a player is left without a valid move. The player with the most points 
 at the end is the winner.
 
+Includes 2 modes of play:
+1) Single Player
+2) Two Player
+
+
+
