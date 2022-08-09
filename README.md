@@ -10,7 +10,7 @@ Includes 2 modes of play
 1) Single Player - Where the player plays against the program
 2) Two Player - Where two players play against each other
 
-Bitmask DP algorithm used by the program in the single player mode of the game to make the most optimal move
+Bitmask DP algorithm used in the single player mode to make the most optimal move
 possible every time, based on the current state of the grid to maximize computer’s score.  
   
 State of the grid decided by
