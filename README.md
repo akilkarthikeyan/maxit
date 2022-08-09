@@ -1,4 +1,5 @@
 # Maxit
+
 Maxit is usually played on an n x n grid of squares. Each square contains a value ranging from -9 to 15. One of the squares is 
 initially designated with a marker (**) indicating the current position. Player 1 may take any square on the same row as the 
 marker. When Player 1 is done, Player 2 makes a similar move, except choosing between the squares in the column.
@@ -9,5 +10,5 @@ Includes 2 modes of play:
 1) Single Player
 2) Two Player
 
-
-
+Bitmask DP algorithm used by the program in the single player mode of the game to make the most optimal move
+possible every time, based on the current state of the grid to maximize computer’s score.
