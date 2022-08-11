@@ -6,12 +6,12 @@ marker. When Player X is done, Player Y makes a similar move, except choosing be
 Play alternates until all squares are taken or until a player is left without a valid move. The player with the most points 
 at the end is the winner.
 
-Includes 2 modes of play
+Includes two modes of play
 1) Single Player - Where the player plays against the program
 2) Two Player - Where two players play against each other
 
 Bitmask DP algorithm used in the single player mode to make the most optimal move
-possible every time, based on the current state of the grid to maximize computer’s score.  
+possible every time, based on the state of the grid to maximize computer’s score.  
   
 State of the grid decided by
 1) position - Current position of the pointer
@@ -20,5 +20,5 @@ State of the grid decided by
 
 DP array stores the difference between the scores of both players "Y - X".  
 Next move chosen to maximize "Y - X" in case of Y's turn or maximize "X - Y" in case of X's turn.  
-Computer assumes the role of Player Y and plays to win by making the most optimal next move as per the DP array.
+Computer assumes the role of Player Y and makes the next move per the DP array.
 
