@@ -11,7 +11,7 @@ Includes two modes of play
 2) Two Player - Where two players play against each other
 
 Bitmask DP algorithm used in the single player mode to make the most optimal move
-possible every time, based on the state of the grid to maximize computer’s score.  
+every time, based on the state of the grid to maximize computer’s score.  
   
 State of the grid decided by
 1) position - Current position of the pointer
