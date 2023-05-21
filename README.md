@@ -22,3 +22,5 @@ DP array stores the difference between the scores of both players "Y - X".
 Next move chosen to maximize "Y - X" in case of Y's turn or maximize "X - Y" in case of X's turn.  
 Computer assumes the role of Player Y and makes the next move per the DP array.
 
+View deployment at [https://akilkarthikeyan.github.io/maxit/]
+
