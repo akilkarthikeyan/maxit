@@ -10,7 +10,7 @@ Includes two modes of play
 1) Single Player - Where the player plays against the program
 2) Two Player - Where two players play against each other
 
-Minimax algorithm is used in the single player mode to make the optimal move
+Minimax algorithm used in the single player mode to make the optimal move
 every time based on the state of the grid to maximize computer’s score. (Implemented via Bitmask DP)
   
 State of the grid decided by
