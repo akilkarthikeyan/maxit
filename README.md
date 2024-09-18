@@ -8,7 +8,7 @@ at the end is the winner.
 
 Includes two modes of play
 1) Single Player - Where the player plays against the program
-2) Two Player - Where two players play against each other
+2) Double Player - Where two players play against each other
 
 Minimax algorithm used in the single player mode to make the optimal move
 every time based on the state of the grid to maximize computer’s score. (Implemented via Bitmask DP)
