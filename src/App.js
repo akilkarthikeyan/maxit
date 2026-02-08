@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Router basename = '/maxit'>
+      <Router basename = '/'>
         <Routes>
           <Route path = "/" element = {<MainPage />} />
           <Route path = "/game/:choice" element = {<Maxit />} />
